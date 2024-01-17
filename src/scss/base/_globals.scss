@@ -9,7 +9,7 @@ html {
 }
   
 body {
-    font-family: v.$primary_font;
+    font-family: v.$main_font;
     font-size: 1.6rem;
 }
 
@@ -17,7 +17,7 @@ p {
     color: v.$black;
     font-size: 2rem;
 }
-.contenedor {
+.container {
     width: 95%;
     max-width: 1200px;
     margin: 0 auto;

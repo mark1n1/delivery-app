@@ -1,0 +1,14 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.navigation {
+    &__link {
+        font-size: 2rem;
+        font-weight: 700;
+        color: v.$black;
+
+        &--register {
+            @include m.button(v.$primary, v.$white);
+        }
+    }
+}
